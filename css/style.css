@@ -1,3 +1,76 @@
 main{
+    background: beige;
     margin-top: 50px;
+}
+
+p{
+    background: pink;
+}
+
+.text1{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid blue;
+    background: green;
+    overflow: hidden;
+    text-overflow: clip;
+    resize: both;
+}
+
+.text2{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid blue;
+    background: green;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text3{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid blue;
+    background: green;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text4{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid blue;
+    background: green;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text4:hover{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid blue;
+    background: green;
+    overflow: auto;
+    text-overflow: clip;
+}
+
+.text5{
+    width: 200px;
+    word-break: keep-all;
+    resize: both;
+    overflow: auto;
+
+}
+
+.text6{
+    width: 200px;
+    word-break: break-all;
+    resize: both;
+    overflow: auto;
+}
+
+.text7{
+    width: 200px;
+    word-wrap: break-word;
+    resize: both;
+    overflow: auto;
 }
